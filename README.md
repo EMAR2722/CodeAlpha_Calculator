@@ -41,12 +41,6 @@ CodeAlpha_Calculator/
 
 ![Calculator Preview](./preview.png)
 
----
-
-## 🔗 Live Demo
->>>>>>> 73ea99d (Completed modern calculator project)
-
-*(Add GitHub Pages link later)*
 
 ---
 
