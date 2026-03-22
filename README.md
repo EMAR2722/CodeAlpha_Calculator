@@ -33,19 +33,6 @@ CodeAlpha_Calculator/
 
 ---
 
-## 🎯 Objective
-
-To build a functional and user-friendly calculator as part of the internship task.
-
----
-
-## 📸 Preview
-
-(Add screenshot after building UI)
-
----
-
-## 🔗 Live Demo
 
 (Add GitHub Pages link later)
 
