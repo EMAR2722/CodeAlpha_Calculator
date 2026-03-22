@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator-container">
+        <!-- Background decorations -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        
+        <div class="calculator">
+            <div class="output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+
+            <div class="buttons">
+                <!-- Row 1 -->
+                <button data-all-clear class="btn-clear action-btn">AC</button>
+                <button data-delete class="btn-delete action-btn">DEL</button>
+                <button data-operation="%" class="operation-btn">%</button>
+                <button data-operation="÷" class="operation-btn">÷</button>
+
+                <!-- Row 2 -->
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operation="×" class="operation-btn">×</button>
+
+                <!-- Row 3 -->
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operation="−" class="operation-btn">−</button>
+
+                <!-- Row 4 -->
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operation="+" class="operation-btn">+</button>
+
+                <!-- Row 5 -->
+                <button data-number class="span-two">0</button>
+                <button data-number>.</button>
+                <button data-equals class="equals-btn">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

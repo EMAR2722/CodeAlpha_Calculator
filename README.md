@@ -1,40 +1,52 @@
-# 🧮 CodeAlpha Calculator
+# 🧮 CodeAlpha Premium Calculator
 
 This project is developed as part of the CodeAlpha Front-End Internship.
 
-It is a modern and responsive calculator built using HTML, CSS, and JavaScript, designed to perform basic arithmetic operations with an intuitive user interface.
+It is a high-end, modern, and responsive calculator built using HTML, CSS, and JavaScript. It has been significantly upgraded to feature a robust object-oriented state logic and a beautifully crafted premium user interface.
 
 ---
 
 ## 🚀 Features
 
-- ➕ Addition, ➖ Subtraction, ✖ Multiplication, ➗ Division
-- 📱 Fully responsive design
-- 🎨 Clean and modern UI
-- ⚡ Fast and interactive user experience
-- ⌨️ Button-based input system
+- ➕ **Core Operations**: Addition, Subtraction, Multiplication, Division, and Percentage.
+- 🎨 **Premium Aesthetics**: Features a deep dark mode with dynamic, animated gradient blobs in the background.
+- 🪟 **Glassmorphism UI**: Uses frosted-glass effects (`backdrop-filter`) for a sleek, modern, multi-layered look.
+- ⌨️ **Keyboard Support**: Fully supports keyboard number pad usage and numeric row input seamlessly mapped to screen interactions.
+- 🛡️ **Robust State Engine**: Implements a secure OOP-based `Calculator` class (replacing insecure `eval()`) with safe edge-case handling, such as division-by-zero prevention.
+- ⚡ **Responsive & Fast**: Instantly scales formatting with thousand-separators and dynamic font sizing.
 
 ---
 
 ## 🛠 Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+- **HTML5**: Semantic layout.
+- **CSS3**: Variables, Flexbox/Grid, Keyframe Animations, Glassmorphism, and Google Fonts (`Inter`).
+- **JavaScript (Vanilla JS)**: Object-Oriented Programming (OOP) class structure and state management.
 
 ---
 
 ## 📂 Project Structure
 
+```
 CodeAlpha_Calculator/
 │── index.html  
 │── style.css  
-│── script.js  
+│── script.js
+│── preview.png
+```
 
 ---
 
+## 📸 Preview
 
-(Add GitHub Pages link later)
+![Calculator Preview](./preview.png)
+
+---
+
+## 🔗 Live Demo
+>>>>>>> 73ea99d (Completed modern calculator project)
+
+*(Add GitHub Pages link later)*
 
 ---
 
